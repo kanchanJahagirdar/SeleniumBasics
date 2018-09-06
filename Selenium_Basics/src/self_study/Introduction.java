@@ -11,7 +11,7 @@ public class Introduction {
 		//Create Driver Object X driver=new X();
 		//Path:C:\Users\sanke\Documents\chromedriver.exe
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\sanke\\Documents\\chromedriver.exe");
-		WebDriver driver=new ChromeDriver();
+		WebDriver driver=new ChromeDriver(); 
 		driver.get("http://google.com");
 		
 
